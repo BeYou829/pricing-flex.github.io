@@ -1,0 +1,163 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Roboto, sans-serif;
+    font-size: clamp(0.75rem, 1.5vw, 1.1rem);
+}
+
+nav {
+    width: 100vw;
+    height: 7vh;
+    background-color: #023877;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    width: 12em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 8em;
+    height: auto;
+}
+
+.nav-menu-options {
+    flex: 1;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a,
+.social-media-icon a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-icon {
+    width: 10em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    width: 80%;
+    height: 88vh;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+main div h1 {
+    font-size: 4em;
+}
+
+.pricing-container {
+    width: 60%;
+    padding: 0px 0px 30px 0px;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 10px 15px rgb(150, 150, 150);
+}
+
+.pricing-item {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: #023877;
+}
+
+.pricing-item h2 {
+    font-size: larger;
+    font-size: 1.2em;
+    color: rgb(90, 90, 90);
+    margin-bottom: 25px;
+}
+
+.pricing-item strong {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.pricing-item button {
+    width: 6rem;
+    padding: 15px 15px;
+}
+
+.pricing-item span {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.pricing-item hr {
+    width: 75%;
+}
+
+.pricing-container img {
+    width: 72px;
+}
+
+.pricing-title {
+    margin: 0px 0px 55px 0px;
+}
+
+
+/* h1 {
+    text-align: center;
+}
+
+.container {
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    background: #161212;
+    display: flex;
+    flex-direction: row;
+    Align Items in the Main (X) Axis
+    justify-content: space-evenly;
+    Align items in the Cross (Y) Axis
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    flex-basis: 400px;
+    background: #c69c9c;
+    border: 2px solid white;
+}
+
+.container div:nth-of-type(1) {
+    flex-grow: 1;
+} */
